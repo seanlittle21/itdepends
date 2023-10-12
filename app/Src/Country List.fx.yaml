@@ -1,9 +1,11 @@
 "'Country List' As screen":
 
     Label1 As label:
+        FontWeight: =FontWeight.Bold
         Height: =58
+        Size: =20
         Text: ="Select Countries where launch is planned "
-        Width: =442
+        Width: =622
         X: =56
         Y: =32
         ZIndex: =1
@@ -19,4 +21,83 @@
         X: =56
         Y: =140
         ZIndex: =3
+
+    Checkbox1_2 As checkbox:
+        Text: ="Austria"
+        X: =56
+        Y: =190
+        ZIndex: =4
+
+    Checkbox1_3 As checkbox:
+        Text: ="Bahrain"
+        X: =56
+        Y: =240
+        ZIndex: =5
+
+    Checkbox1_4 As checkbox:
+        Text: ="Belarus"
+        X: =56
+        Y: =290
+        ZIndex: =6
+
+    Checkbox1_5 As checkbox:
+        Text: ="Belgium"
+        X: =56
+        Y: =340
+        ZIndex: =7
+
+    Checkbox1_6 As checkbox:
+        Text: ="Brazil"
+        X: =56
+        Y: =390
+        ZIndex: =8
+
+    Checkbox1_7 As checkbox:
+        Text: ="Bulgaria"
+        X: =56
+        Y: =440
+        ZIndex: =9
+
+    Checkbox1_8 As checkbox:
+        Text: ="Canada"
+        X: =56
+        Y: =490
+        ZIndex: =10
+
+    Checkbox1_9 As checkbox:
+        Text: ="Chile"
+        X: =56
+        Y: =540
+        ZIndex: =11
+
+    Checkbox1_10 As checkbox:
+        Text: ="China"
+        X: =56
+        Y: =590
+        ZIndex: =12
+
+    Checkbox1_11 As checkbox:
+        Text: ="Columbia"
+        X: =56
+        Y: =640
+        ZIndex: =13
+
+    Checkbox1_12 As checkbox:
+        Text: ="Croatia"
+        X: =56
+        Y: =690
+        ZIndex: =14
+
+    Checkbox1_13 As checkbox:
+        Height: =0
+        Text: ="Croatia"
+        X: =76
+        Y: =710
+        ZIndex: =15
+
+    Checkbox1_14 As checkbox:
+        Text: ="Croatia"
+        X: =206
+        Y: =90
+        ZIndex: =16
 
