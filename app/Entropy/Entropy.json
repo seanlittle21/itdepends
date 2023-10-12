@@ -1,18 +1,9 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Country List": 4,
-    "Form1": 8,
-    "Host": 3,
-    "Output Page": 5,
-    "Product Features": 7,
-    "Testing page": 6
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/12/2023 15:12:21",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -20,44 +11,16 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "Table2": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "form": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Country List": {},
-    "Form1": {},
-    "Host": {},
-    "Output Page": {},
-    "Product Features": {},
-    "Testing page": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Country List": 3,
-    "Form1": 0,
-    "Host": 0,
-    "Output Page": 4,
-    "Product Features": 6,
-    "Testing page": 5
-  },
+  "PublishOrderIndices": {},
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0065249,
-    "ControlCount": {
-      "screen": 4
-    },
-    "DeserializationLoadTime": 0.4446251
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
