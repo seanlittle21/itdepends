@@ -1,2 +1,22 @@
 "'Country List' As screen":
 
+    Label1 As label:
+        Height: =58
+        Text: ="Select Countries where launch is planned "
+        Width: =442
+        X: =56
+        Y: =32
+        ZIndex: =1
+
+    Checkbox1 As checkbox:
+        Text: ="Argentina"
+        X: =56
+        Y: =90
+        ZIndex: =2
+
+    Checkbox1_1 As checkbox:
+        Text: ="Australia"
+        X: =56
+        Y: =140
+        ZIndex: =3
+

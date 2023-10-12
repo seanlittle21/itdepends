@@ -1,9 +1,20 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Checkbox1": 9,
+    "Checkbox1_1": 10,
+    "Country List": 4,
+    "Host": 3,
+    "Label1": 8,
+    "Output Page": 5,
+    "Output Page_1": 6,
+    "Product Features": 7
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "10/12/2023 15:20:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -11,16 +22,62 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Column Mappings": 10,
+    "Column Mappings\\columnmapping_processcode": 2,
+    "Column Mappings\\columnmapping_statecode": 3,
+    "Column Mappings\\columnmapping_statuscode": 4,
+    "Column Mappings\\componentstate": 1,
+    "Column Mappings\\default.cds_columnmapping_views": 7,
+    "Column Mappings\\ismanaged": 0,
+    "ComboBoxSample": 9,
+    "DropDownSample": 11,
+    "Exported Excels": 12,
+    "Exported Excels\\default.cds_exportedexcel_views": 8,
+    "Exported Excels\\exportedexcel_statecode": 5,
+    "Exported Excels\\exportedexcel_statuscode": 6
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "checkbox": 1,
+    "label": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Checkbox1": {},
+    "Checkbox1_1": {},
+    "Country List": {},
+    "Host": {},
+    "Label1": {},
+    "Output Page": {},
+    "Output Page_1": {},
+    "Product Features": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Checkbox1": 0,
+    "Checkbox1_1": 0,
+    "Country List": 3,
+    "Host": 0,
+    "Label1": 0,
+    "Output Page": 4,
+    "Output Page_1": 5,
+    "Product Features": 6
+  },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0066908,
+    "ControlCount": {
+      "checkbox": 2,
+      "screen": 4
+    },
+    "DeserializationLoadTime": 0.134792
+  },
+  "WasLocalDatabaseReferencesEmpty": false
 }

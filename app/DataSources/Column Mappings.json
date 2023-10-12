@@ -1,0 +1,157 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "columnmappings",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "columnmapping",
+    "Name": "Column Mappings",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "columnmappingid": "ColumnMappingId",
+      "columnmappingidunique": "ColumnMappingIdUnique",
+      "componentstate": "Component State",
+      "createdby": "Created By",
+      "createdon": "CreatedOn",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importmapid": "Data Map ID",
+      "introducedversion": "Introduced Version",
+      "ismanaged": "State",
+      "LookUpMapping_ColumnMapping": "Lookup Mappings",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overwritetime": "Record Overwrite Time",
+      "PickListMapping_ColumnMapping": "List Value Mappings",
+      "processcode": "Process Code",
+      "solutionid": "Solution",
+      "sourceattributename": "Source Attribute",
+      "sourceentityname": "Source Entity Name",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "targetattributename": "Target Attribute",
+      "targetentityname": "Target Entity"
+    },
+    "PreferredName": "Column Mappings",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Column Mappings (Views)",
+    "Name": "_columnmapping_views",
+    "RelatedEntityName": "Column Mappings",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "a6cc2d8e-9768-dd11-b1b0-00155d869f00": "All Column Mappings"
+    }
+  },
+  {
+    "DisplayName": "Process Code (Column Mappings)",
+    "Name": "columnmapping_processcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Process",
+      "2": "Ignore",
+      "3": "Internal"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "processcode",
+        "OptionSetReferenceEntityName": "Column Mappings"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "processcode",
+    "RelatedEntityName": "Column Mappings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Column Mappings)",
+    "Name": "columnmapping_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Column Mappings"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Column Mappings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Column Mappings)",
+    "Name": "columnmapping_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Column Mappings"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Column Mappings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Component State",
+    "Name": "componentstate",
+    "OptionSetInfoNameMapping": {
+      "0": "Published",
+      "1": "Unpublished",
+      "2": "Deleted",
+      "3": "Deleted Unpublished"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "componentstate",
+        "OptionSetReferenceEntityName": "Column Mappings"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "componentstate",
+        "OptionSetReferenceEntityName": "Exported Excels"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "componentstate",
+    "RelatedEntityName": "Column Mappings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Component Managed",
+    "Name": "ismanaged",
+    "OptionSetInfoNameMapping": {
+      "0": "Unmanaged",
+      "1": "Managed"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ismanaged",
+        "OptionSetReferenceEntityName": "Column Mappings"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "ismanaged",
+        "OptionSetReferenceEntityName": "Exported Excels"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ismanaged",
+    "RelatedEntityName": "Column Mappings",
+    "Type": "OptionSetInfo"
+  }
+]
