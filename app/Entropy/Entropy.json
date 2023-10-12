@@ -1,26 +1,107 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Checkbox1": 16,
+    "Checkbox2": 17,
+    "Country List": 4,
+    "Host": 3,
+    "Image1": 8,
+    "Label1": 9,
+    "Label2": 10,
+    "Label3": 12,
+    "Label4": 13,
+    "Label5": 14,
+    "Label6": 15,
+    "Output Page": 5,
+    "Output Page_1": 6,
+    "Product Features": 7,
+    "Radio1": 18,
+    "Radio2": 19,
+    "TextInput1": 11
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "10/12/2023 15:19:04",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "World2": "f56b235d-c82f-49bb-b2ff-89a129c42bc8.JPG"
+  },
+  "LocalResourceRootPaths": {
+    "World2": "https://docserverpwaprodwus.blob.core.windows.net/d4c5817d-0eb5-4585-aa9f-272231f1a532-1/resource/5cb26a4e-f694-4d1a-8dec-dec1f6178703.JPG?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-12T15%3A10%3A28Z&ske=2023-10-13T15%3A25%3A28Z&sks=b&skv=2021-08-06&sv=2021-08-06&spr=https&se=2023-10-13T15%3A25%3A28Z&sr=b&sp=r&sig=dkBRUjE4UPjOcymvLA6%2FuhbXpI5tOwNch5%2FCYnjtSOY%3D"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "RadioSample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "checkbox": 3,
+    "image": 1,
+    "label": 0,
+    "radio": 4,
+    "text": 2
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Checkbox1": {},
+    "Checkbox2": {},
+    "Country List": {},
+    "Host": {},
+    "Image1": {},
+    "Label1": {},
+    "Label2": {},
+    "Label3": {},
+    "Label4": {},
+    "Label5": {},
+    "Label6": {},
+    "Output Page": {},
+    "Output Page_1": {},
+    "Product Features": {},
+    "Radio1": {},
+    "Radio2": {},
+    "TextInput1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Checkbox1": 5,
+    "Checkbox2": 7,
+    "Country List": 3,
+    "Host": 0,
+    "Image1": 2,
+    "Label1": 0,
+    "Label2": 1,
+    "Label3": 4,
+    "Label4": 6,
+    "Label5": 9,
+    "Label6": 11,
+    "Output Page": 4,
+    "Output Page_1": 5,
+    "Product Features": 6,
+    "Radio1": 8,
+    "Radio2": 10,
+    "TextInput1": 3
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 1,
+    "Image-World2": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0086972,
+    "ControlCount": {
+      "screen": 4
+    },
+    "DeserializationLoadTime": 0.2279605
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }

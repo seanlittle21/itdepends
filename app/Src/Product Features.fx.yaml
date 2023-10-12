@@ -1,2 +1,107 @@
 "'Product Features' As screen":
+    Fill: =RGBA(204, 231, 246, 1)
+
+    Image1 As image:
+        Height: =657
+        Image: =World2
+        Width: =754
+        X: =12
+        Y: =111
+        ZIndex: =1
+
+    Label1 As label:
+        Height: =102
+        Size: =60
+        Text: ="Power Depends App"
+        Width: =796
+        X: =12
+        Y: =9
+        ZIndex: =2
+
+    Label2 As label:
+        Height: =52
+        Size: =26
+        Text: |-
+            ="Report Name:"
+        Width: =238
+        X: =808
+        Y: =88
+        ZIndex: =3
+
+    TextInput1 As text:
+        Default: ="Name"
+        Height: =66
+        Size: =26
+        Width: =506
+        X: =808
+        Y: =152
+        ZIndex: =4
+
+    Label3 As label:
+        Height: =58
+        Size: =26
+        Text: ="Product Features"
+        Width: =308
+        X: =808
+        Y: =312
+        ZIndex: =5
+
+    Label4 As label:
+        Align: =Align.Right
+        Size: =26
+        Text: ="Power"
+        X: =887
+        Y: =398
+        ZIndex: =6
+
+    Label5 As label:
+        Align: =Align.Right
+        Size: =26
+        Text: ="Laser"
+        X: =887
+        Y: =542
+        ZIndex: =7
+
+    Label6 As label:
+        Align: =Align.Right
+        Size: =26
+        Text: ="CB Scheme"
+        Width: =196
+        X: =841
+        Y: =677
+        ZIndex: =8
+
+    Checkbox1 As checkbox:
+        Size: =26
+        Text: ="AC"
+        X: =1046
+        Y: =373
+        ZIndex: =9
+
+    Checkbox2 As checkbox:
+        Height: =38
+        Size: =26
+        Text: ="Battery"
+        Width: =184
+        X: =1046
+        Y: =425
+        ZIndex: =10
+
+    Radio1 As radio:
+        Height: =162
+        Items: =["Has CB", "No CB", "No Laser"]
+        Size: =26
+        Width: =244
+        X: =1037
+        Y: =481
+        ZIndex: =11
+
+    Radio2 As radio:
+        Height: =116
+        Items: |
+            =["Yes", "No"]
+        Size: =26
+        X: =1036
+        Y: =639
+        ZIndex: =12
 
